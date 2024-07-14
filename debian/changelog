@@ -1,5 +1,67 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-jsimonetti-rtnetlink (1.4.1-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Thu, 25 Jan 2024 12:29:10 +0000
+
+golang-github-jsimonetti-rtnetlink (1.4.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Tue, 12 Dec 2023 17:14:31 +0000
+
+golang-github-jsimonetti-rtnetlink (1.3.5-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump Standards-Version to 4.6.2 (no changes)
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Thu, 17 Aug 2023 21:02:59 +0000
+
+golang-github-jsimonetti-rtnetlink (1.3.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump minimum required Go version to 1.18
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Sun, 27 Nov 2022 20:59:26 +0000
+
+golang-github-jsimonetti-rtnetlink (1.2.4-1) unstable; urgency=medium
+
+  * New upstream release
+  * Mark as Multi-Arch: foreign
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Wed, 23 Nov 2022 01:30:46 +0000
+
+golang-github-jsimonetti-rtnetlink (1.2.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * Add myself to Uploaders
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Fri, 21 Oct 2022 11:32:49 +0000
+
+golang-github-jsimonetti-rtnetlink (1.2.2-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release, supporting kernel 5.19+
+  * Bump Standards-Version (no changes)
+  * Build-Depend on dh-sequence-golang, drop '--with=golang' in d/rules
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Thu, 06 Oct 2022 19:10:26 +0000
+
+golang-github-jsimonetti-rtnetlink (1.1.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Update d/watch to track upstream tags
+
+ -- Benjamin Drung <bdrung@debian.org>  Mon, 31 Jan 2022 17:18:05 +0100
+
+golang-github-jsimonetti-rtnetlink (0.0~git20211213.9dff439-2) unstable; urgency=medium
+
+  * No-change upload to build on buildd.
+
+ -- Benjamin Drung <bdrung@debian.org>  Fri, 14 Jan 2022 21:27:17 +0100
+
+golang-github-jsimonetti-rtnetlink (0.0~git20211213.9dff439-1) unstable; urgency=medium
+
+  * Initial release (Closes: #963594)
+
+ -- Benjamin Drung <bdrung@debian.org>  Tue, 11 Jan 2022 13:59:55 +0100
